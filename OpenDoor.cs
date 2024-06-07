@@ -37,7 +37,7 @@ public class OpenDoor : MonoBehaviour
         {
             if (Input.GetKeyDown(interactKey))
             {
-                animator.Play("GOD");
+                animator.Play("ODtest");
             }
         }
     }
